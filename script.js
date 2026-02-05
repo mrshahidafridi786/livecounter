@@ -6,7 +6,7 @@ textInput.addEventListener("input", function () {
 
   let textLength = textInput.value.length;
 
-  counter.innerText = textLength + " / 100";
+  counter.innerText = textLength + "/100";
 
   if (textLength > 70 && textLength < 100) {
     counter.style.color = "orange";
